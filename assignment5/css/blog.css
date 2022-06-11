@@ -1,0 +1,157 @@
+/* Start Public Style  */
+body
+{
+  font-size: 17px;
+  background-color: #f4f4f4;
+}
+/* start customize container  */
+@media (min-width: 1200px)
+{
+  .container, .container-lg, .container-md, .container-sm, .container-xl 
+  {
+      max-width: 1358px !important;
+  }
+}
+
+/* End customize container  */
+.custom-upload
+{
+  border: 1px solid #ccc;
+  position: relative;
+  z-index: 1;
+  height: 35px;
+}
+.custom-upload > span
+{
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 13px;
+display: block;
+padding: 6px 9px;
+color: grey;
+}
+.custom-upload input[type="file"]
+{
+width: 100%;
+height: 100%;
+opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 5;
+cursor: pointer;
+}
+.custom-upload input[type="file"]:focus
+{
+box-shadow: none;
+border-color: transparent;
+}
+.custom-upload:after
+{
+content: "Upload";
+background-color: #f92b28;
+color: #fff;
+width: 70px;
+height: 35px;
+position: absolute;
+top: 0;
+right: 0;
+line-height: 34px;
+text-align: center;
+}
+h1
+{
+  color: #676869;
+  font-family: 'Fredoka One', cursive;
+  font-size: 45px;
+}
+a:hover
+{
+  text-decoration: none;
+}
+.asterisk
+{
+    height: 0;
+    position: absolute;
+    right: 25px;
+    top: 4px;
+    color: #ca0e0e;
+    font-size: 26px;
+}
+.show-pass
+{
+  position: absolute;
+  right: 42px;
+  top: 11px;
+  font-size: 21px;
+  cursor: pointer;
+}
+.btn.focus, .btn:focus
+{
+  box-shadow: none;
+}
+.second-header
+{
+  font-size: 30px;
+}
+
+/* Start Bootstrab Customize  */
+.form-control
+{
+  position: relative;
+}
+
+/* End Bootstrab Customize  */
+
+/* Start Login Form Style  */
+.login-body
+{
+  background-image: url('../images/black-samsung-tablet-computer-106344.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* EndLogin Form Style  */
+
+/* Start Blog Page Style  */
+.public-bg 
+{
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    border: 1px solid #eee !important;
+    box-shadow: 0px 0px 8px 0px #d4d4d4;
+    padding: 20px 14px;
+    margin-bottom: 20px;
+}
+.page-header
+{
+   background-color: #fdfdfd;
+   border: 1px solid #eee;
+   border-radius: 10px;
+   padding: 12px 20px 8px 30px;
+   margin: 30px 0px 30px 0px;
+   box-shadow: 0px 0px 8px 0px #d4d4d4;
+}
+/* Start Blog Style  */
+.blog-box
+{
+  border: 1px solid #ccc ;
+}
+.blog-box .card-body
+{
+  padding: 15px;
+}
+.blog-box .card-body .card-title
+{
+  height: 34px;
+  overflow: hidden;
+  transition: height 3s ease-in-out;
+}
+.blog-box  .card-text
+{
+  transition: height 3s ease-in-out;
+  height: 50px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  overflow: hidden;
+}
+/* End Blog Page Style  */
